@@ -1,0 +1,23 @@
+.background-gradient{
+    background: linear-gradient(180deg, #BB1E1E 71.29%, #B21919 99.95%);
+    flex-wrap: nowrap; 
+}
+
+.row{
+    margin-right: 0;
+}
+
+.every {
+    font-family: 'InterV';
+}
+
+.make {
+    font-family: 'InterV_Bold';
+    font-weight: bold;
+    margin-left: 0.25rem;
+}
+@media (max-width: 767px) {
+    .background-gradient {
+        display: none;
+    }
+}

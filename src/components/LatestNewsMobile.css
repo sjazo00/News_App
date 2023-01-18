@@ -1,0 +1,15 @@
+span, p{
+    font-family: 'InterV_Medium';
+}
+.published{
+    color: #1E71BB;
+}
+.record{
+    width: 22px;
+    height: 25px;
+}
+@media (min-width: 768px) {
+    .latest-news-mobile {
+        display: none;
+    }
+}
